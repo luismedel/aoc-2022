@@ -6,9 +6,6 @@ import requests
 import markdownify
 from bs4 import BeautifulSoup
 
-# requires
-# - bs4
-# - markdownify
 
 if len(sys.argv) == 1:
     print ('prepare_day yyyy/dd 1|2')
